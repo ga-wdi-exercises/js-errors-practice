@@ -15,119 +15,119 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
 1. `Uncaught SyntaxError: Unexpected token {`
   ```html
   <script>
-  function hello(){
+  // Code goes here
   </script>
   ```
-  > Missing a `}`
+  > Explanation goes here
 
 - `Uncaught ReferenceError: greeting is not defined`
   ```html
   <script>
-  alert(greeting);
+  // Code goes here
   </script>
   ```
-  > Need `var greeting` somewhere
+  > Explanation goes here
 
 - `GET file:///scripts.js net::ERR_FILE_NOT_FOUND`
   ```html
-  <script src="/scripts.js"></script>
+  <script>
+  // Code goes here
+  </script>
   ```
-  > The file doesn't exist
+  > Explanation goes here
 
 - `GET http://maxcdn.com/bootstrap.css 400 (Not Found)`
   ```html
-  <script src="http://maxcdn.com/bootstrap.css"></script>
+  <script>
+  // Code goes here
+  </script>
   ```
-  > The URL doesn't exist
+  > Explanation goes here
 
 - `Uncaught TypeError: "hello".push is not a function`
   ```html
   <script>
-  "hello".push("world");
+  // Code goes here
   </script>
   ```
-  > `.push` is an array method, not a string method
+  > Explanation goes here
 
 - `Uncaught TypeError: this.greet is not a function`
   ```html
   <script>
-  this.greet();
+  // Code goes here
   </script>
   ```
-  > `this` is the `Window`, and the `Window` doesn't have a method called `greet`
+  > Explanation goes here
 
 - `Uncaught TypeError: Cannot read property 'name' of undefined`
   ```html
   <script>
-  var bob;
-  console.log(bob.name);
+  // Code goes here
   </script>
   ```
-  > `bob` doesn't have a value
+  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected token ILLEGAL`
   ```html
   <script>
-  console.log("hello
+  // Code goes here
   </script>
   ```
-  > Missing a closing `")`
+  > Explanation goes here
 
 - `Uncaught SyntaxError: missing ) after argument list`
   ```html
   <script>
-  console.log("hello"
+  // Code goes here
   </script>
   ```
-  > Missing a closing `)`
+  > Explanation goes here
 
 - `Uncaught ReferenceError: Invalid left-hand side in assignment`
   ```html
   <script>
-  42 = "the answer";
+  // Code goes here
   </script>
   ```
-  > You can't change the value of `42`
+  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected number`
   ```html
   <script>
-  var 42 = "the answer";
+  // Code goes here
   </script>
   ```
-  > You can't use numbers as variable names
+  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected string`
   ```html
   <script>
-  var myArray = ["a" "b" "c"];
+  // Code goes here
   </script>
   ```
-  > Items in arrays must be separated by commas
+  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected identifier`
   ```html
   <script>
-  var me = {name: "Robin" age: 47}
+  // Code goes here
   </script>
   ```
-  > Pairs in objects must be separated by commas
+  > Explanation goes here
 
 - `Uncaught SyntaxError: Unterminated template literal`
   ```html
   <script>
-  var name = "Jimmy Bob";`
+  // Code goes here
   </script>
   ```
-  > There's a trailing `` ` ``. This happens all the time when copying stuff from Slack.
+  > Explanation goes here
 
 - `Uncaught RangeError: Maximum call stack size exceeded`
   ```html
   <script>
-  function recursion(){
-    recursion();
-  }
-  recursion();
+  // Code goes here
   </script>
   ```
-  > The function calls itself, which calls itself... until it has called itself an infinite number of times.
+  > Explanation goes here
