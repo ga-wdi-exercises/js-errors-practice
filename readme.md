@@ -10,6 +10,8 @@ The prompts get progressively more difficult.
 
 You can edit the `<script>` element of the enclosed [index.html](./index.html) as your scratch pad.
 
+If you get stuck, check the solution branch of this repo, and see if you can reproduce the error in a *different way*!
+
 **Hint:** In a few of the spaces below, rather than just putting stuff inside the `<script>` tags you may need to edit the tags themselves.
 
 1. `Uncaught SyntaxError: Unexpected token {`
