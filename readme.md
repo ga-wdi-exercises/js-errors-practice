@@ -1,8 +1,12 @@
 # JS Errors Practice
 
-In the spaces below, write code that would produce the corresponding error message. Each of these errors could be caused by any number of different code combinations; just write the first you find.
+In the spaces below, **write code that would produce the corresponding error message.**
 
-The prompts get progressively more difficult. 
+> Each of these errors could be caused by any number of different code combinations; just write the first you find.
+
+Then, on the line below, **write an explanation of why your code causes this error**.
+
+The prompts get progressively more difficult.
 
 You can edit the `<script>` element of the enclosed [index.html](./index.html) as your scratch pad.
 
@@ -127,4 +131,3 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   </script>
   ```
   > The function calls itself, which calls itself... until it has called itself an infinite number of times.
-
