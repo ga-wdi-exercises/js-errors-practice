@@ -1,135 +1,165 @@
 # JS Errors Practice
 
-In the spaces below, **write code that would produce the corresponding error message.**
+In the spaces below, **write down what each error message means.** Try coming up with an answer on your own first, based solely on the error message. You can then use Google to confirm your answer.
 
-> Each of these errors could be caused by any number of different code combinations; just write the first you find.
+If your answer needs some code context, feel free to provide an example code snippet in the spaces provided. This, however, is not required!
 
-Then, on the line below, **write an explanation of why your code causes this error**.
-
-The prompts get progressively more difficult.
-
-You can edit the `<script>` element of the enclosed [index.html](./index.html) as your scratch pad.
-
-If you get stuck, check the solution branch of this repo, and see if you can reproduce the error in a *different way*!
+The prompts get progressively more difficult. If you get stuck, check the solution branch of this repo!
 
 **Hint:** In a few of the spaces below, rather than just putting stuff inside the `<script>` tags you may need to edit the tags themselves.
 
+### Bonus
+
+Try generating these errors yourself! You can edit the `<script>` element of the enclosed [index.html](./index.html) as your scratch pad.
+
+------------
+
 1. `Uncaught SyntaxError: Unexpected token {`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught ReferenceError: greeting is not defined`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `GET file:///scripts.js net::ERR_FILE_NOT_FOUND`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `GET http://maxcdn.com/bootstrap.css 400 (Not Found)`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught TypeError: "hello".push is not a function`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught TypeError: this.greet is not a function`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught TypeError: Cannot read property 'name' of undefined`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected token ILLEGAL`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: missing ) after argument list`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught ReferenceError: Invalid left-hand side in assignment`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected number`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected string`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: Unexpected identifier`
+
+  > Explanation goes here
+
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
-  > Explanation goes here
 
 - `Uncaught SyntaxError: Unterminated template literal`
-  ```html
-  <script>
-  // Code goes here
-  </script>
-  ```
+
   > Explanation goes here
 
-- `Uncaught RangeError: Maximum call stack size exceeded`
   ```html
   <script>
-  // Code goes here
+  // Optional code goes here
   </script>
   ```
+
+- `Uncaught RangeError: Maximum call stack size exceeded`
+
   > Explanation goes here
+
+  ```html
+  <script>
+  // Optional code goes here
+  </script>
+  ```
