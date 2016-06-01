@@ -12,7 +12,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
 
 **Hint:** In a few of the spaces below, rather than just putting stuff inside the `<script>` tags you may need to edit the tags themselves.
 
-1. `Uncaught SyntaxError: Unexpected token {`
+#### `Uncaught SyntaxError: Unexpected token {`
   ```html
   <script>
   function hello(){
@@ -20,7 +20,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Missing a `}`
 
-- `Uncaught ReferenceError: greeting is not defined`
+#### `Uncaught ReferenceError: greeting is not defined`
   ```html
   <script>
   alert(greeting);
@@ -28,19 +28,19 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Need `var greeting` somewhere
 
-- `GET file:///scripts.js net::ERR_FILE_NOT_FOUND`
+#### `GET file:///scripts.js net::ERR_FILE_NOT_FOUND`
   ```html
   <script src="/scripts.js"></script>
   ```
   > The file doesn't exist
 
-- `GET http://maxcdn.com/bootstrap.css 400 (Not Found)`
+#### `GET http://maxcdn.com/bootstrap.css 400 (Not Found)`
   ```html
   <script src="http://maxcdn.com/bootstrap.css"></script>
   ```
   > The URL doesn't exist
 
-- `Uncaught TypeError: "hello".push is not a function`
+#### `Uncaught TypeError: "hello".push is not a function`
   ```html
   <script>
   "hello".push("world");
@@ -48,7 +48,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > `.push` is an array method, not a string method
 
-- `Uncaught TypeError: this.greet is not a function`
+#### `Uncaught TypeError: this.greet is not a function`
   ```html
   <script>
   this.greet();
@@ -56,7 +56,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > `this` is the `Window`, and the `Window` doesn't have a method called `greet`
 
-- `Uncaught TypeError: Cannot read property 'name' of undefined`
+#### `Uncaught TypeError: Cannot read property 'name' of undefined`
   ```html
   <script>
   var bob;
@@ -65,7 +65,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > `bob` doesn't have a value
 
-- `Uncaught SyntaxError: Unexpected token ILLEGAL`
+#### `Uncaught SyntaxError: Unexpected token ILLEGAL`
   ```html
   <script>
   console.log("hello
@@ -73,7 +73,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Missing a closing `")`
 
-- `Uncaught SyntaxError: missing ) after argument list`
+#### `Uncaught SyntaxError: missing ) after argument list`
   ```html
   <script>
   console.log("hello"
@@ -81,7 +81,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Missing a closing `)`
 
-- `Uncaught ReferenceError: Invalid left-hand side in assignment`
+#### `Uncaught ReferenceError: Invalid left-hand side in assignment`
   ```html
   <script>
   42 = "the answer";
@@ -89,7 +89,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > You can't change the value of `42`
 
-- `Uncaught SyntaxError: Unexpected number`
+#### `Uncaught SyntaxError: Unexpected number`
   ```html
   <script>
   var 42 = "the answer";
@@ -97,7 +97,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > You can't use numbers as variable names
 
-- `Uncaught SyntaxError: Unexpected string`
+#### `Uncaught SyntaxError: Unexpected string`
   ```html
   <script>
   var myArray = ["a" "b" "c"];
@@ -105,7 +105,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Items in arrays must be separated by commas
 
-- `Uncaught SyntaxError: Unexpected identifier`
+#### `Uncaught SyntaxError: Unexpected identifier`
   ```html
   <script>
   var me = {name: "Robin" age: 47}
@@ -113,7 +113,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > Pairs in objects must be separated by commas
 
-- `Uncaught SyntaxError: Unterminated template literal`
+#### `Uncaught SyntaxError: Unterminated template literal`
   ```html
   <script>
   var name = "Jimmy Bob";`
@@ -121,7 +121,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   ```
   > There's a trailing `` ` ``. This happens all the time when copying stuff from Slack.
 
-- `Uncaught RangeError: Maximum call stack size exceeded`
+#### `Uncaught RangeError: Maximum call stack size exceeded`
   ```html
   <script>
   function recursion(){
