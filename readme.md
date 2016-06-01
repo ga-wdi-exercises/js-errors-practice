@@ -54,7 +54,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   this.greet();
   </script>
   ```
-  > `this` is the `Window`, and the `Window` doesn't have a method called `greet`
+  > Whatever `this` is, it doesn't have a `greet` method
 
 #### `Uncaught TypeError: Cannot read property 'name' of undefined`
   ```html
@@ -63,7 +63,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   console.log(bob.name);
   </script>
   ```
-  > `bob` doesn't have a value
+  > `bob` has no value; it's undefined
 
 #### `Uncaught SyntaxError: Unexpected token ILLEGAL`
   ```html
@@ -87,7 +87,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   42 = "the answer";
   </script>
   ```
-  > You can't change the value of `42`
+  > `42` is always `42`. You can't change its value.
 
 #### `Uncaught SyntaxError: Unexpected number`
   ```html
@@ -95,7 +95,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   var 42 = "the answer";
   </script>
   ```
-  > You can't use numbers as variable names
+  > Variable names cannot begin with numbers.
 
 #### `Uncaught SyntaxError: Unexpected string`
   ```html
@@ -103,7 +103,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   var myArray = ["a" "b" "c"];
   </script>
   ```
-  > Items in arrays must be separated by commas
+  > Items in arrays must be separated by commas.
 
 #### `Uncaught SyntaxError: Unexpected identifier`
   ```html
@@ -111,7 +111,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   var me = {name: "Robin" age: 47}
   </script>
   ```
-  > Pairs in objects must be separated by commas
+  > Key/value pairs in objects must be separated by commas.
 
 #### `Uncaught SyntaxError: Unterminated template literal`
   ```html
@@ -119,7 +119,7 @@ You can edit the `<script>` element of the enclosed [index.html](./index.html) a
   var name = "Jimmy Bob";`
   </script>
   ```
-  > There's a trailing `` ` ``. This happens all the time when copying stuff from Slack.
+  > There's a trailing `` ` ``. Note: **This happens all the time when copying stuff from Slack.**
 
 #### `Uncaught RangeError: Maximum call stack size exceeded`
   ```html
