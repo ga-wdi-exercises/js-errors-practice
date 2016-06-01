@@ -1,5 +1,7 @@
 # JS Errors Practice
 
+First, clone down this repo.
+
 In the spaces below, **write down what each error message means.** Try coming up with an answer on your own first, based solely on the error message. You can then use Google to confirm your answer.
 
 If your answer needs some code context, feel free to provide an example code snippet in the spaces provided. This, however, is not required!
